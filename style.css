@@ -2850,7 +2850,7 @@ Version:	1.1
     font-size: 16px;
     line-height: 19px;
     font-size: 16px;
-    color: #555;
+    color: #ffffff;
     text-transform: capitalize;
     display: block;
     margin-bottom: 5px;
@@ -3108,7 +3108,7 @@ textarea{
 .sform .btn {
   display: inline-block;
   line-height: 50px;
-  padding: 0 50px;
+  padding: 0 30px;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -3116,7 +3116,6 @@ textarea{
   cursor: pointer;
   font-size: 18px;
   color: #fff;
-  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
 .sform .btn--radius {
@@ -3150,7 +3149,7 @@ textarea{
 }
 
 .sform .btn--blue {
-  background: #001c43;
+  background:#F2784B;
 }
 
 .sform .btn--blue:hover {
