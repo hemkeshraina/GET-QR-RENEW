@@ -695,13 +695,13 @@ Version:	1.1
 #about-me .tabs-main .nav-tabs li {
 	float: none;
 	margin: 0;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	position: relative;
 }
 #about-me .tabs-main li .tooltips {
 	position: absolute;
 	width: 78px;
-	top: -30px;
+	top: -25px;
 	color: #fff;
 	text-align: center;
 	-webkit-transition: all 0.3s ease;
@@ -754,6 +754,7 @@ Version:	1.1
 #about-me .tab-pane {
 	transition: all 0.4s ease;
 	width:100%;
+	min-height:60rem;
 }
 #about-me .tab-title {
 	position: relative;
@@ -2385,7 +2386,7 @@ Version:	1.1
 	top: 20px;
 	content: "";
 	width: 80%;
-	height: 330px;
+	height: 630px;
 	background: #000;
 	left: 50%;
 	opacity: 0.8;
@@ -2399,7 +2400,7 @@ Version:	1.1
 	top: 20px;
 	content: "";
 	width: 80%;
-	height: 330px;
+	height: 630px;
 	left: 50%;
 	opacity: 0.8;
 	margin-left: -40%;
@@ -2414,7 +2415,8 @@ Version:	1.1
 #call-action .call-action-main h2 {
 	color: #fff;
 	text-transform: uppercase;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
+	margin-top: 10px;
 	font-size: 34px;
 	position: relative;
 	overflow:hidden;
@@ -3149,7 +3151,7 @@ textarea{
 }
 
 .sform .btn--blue {
-  background:#F2784B;
+  background:#0073FF;
 }
 
 .sform .btn--blue:hover {
@@ -3159,3 +3161,39 @@ textarea{
 .sform{
 	margin-left: 1rem;
 }
+
+.faq h1{
+	font-family: 'Source Sans Pro',sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 80px;
+	text-align: center;
+	color: #344FA1;
+	margin-top:150px;
+	margin-bottom: 60px;
+  }
+  
+  .faq h6{
+	font-family: 'Source Sans Pro',sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 60px;
+	color: #344FA1;
+  }
+  
+  .faq p{
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 25px;
+	color: #3d3d3d;
+	text-align: justify;
+	margin-bottom: 35px;
+  }
+  
+  hr.new4 {
+	border: 1px solid #060199;;
+  }

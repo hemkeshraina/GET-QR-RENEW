@@ -31,7 +31,7 @@
 #header.sidenav .nav li.active a,
 #header.sidenav .nav li:hover a,
 #header.normal .slicknav_nav a:hover{
-	color:#D2527F;
+	color:#0073ff;
 }
 #header .nav li a::before,
 #header .logo a::before,
@@ -99,15 +99,15 @@
 #header .social,
 #call-action::before,
 .k-line{
-	background: #D2527F;
+	background: #0073ff;
 }
 #header .nav li a::after,
 #portfolio .portfolio-nav ul li span::before,
 #clients.section{
-	border-top-color:#D2527F;
+	border-top-color:#0073ff;
 }
 #blog .blog-head{
-	border-bottom-color:#D2527F
+	border-bottom-color:#0073ff
 }
 #countdown .single-count:hover i:after,
 #countdown .single-count.active i:after,
@@ -116,5 +116,5 @@
 #contact .form-group input:hover,
 #contact .form-group input:focus,
 #contact .form-group textarea:hover{
-	border-color:#D2527F;
+	border-color:#0073ff;
 }
