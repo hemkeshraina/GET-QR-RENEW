@@ -2899,7 +2899,7 @@ Version:	1.1
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #8566FF;
+    background:#0073ff;
   }
   
   .sform .checkmark {
@@ -3198,4 +3198,182 @@ textarea{
 	border: 1px solid #060199;;
   }
 
+  .containerc{
+	/* margin-inline-end: 550px; */
+	background-color: #e2efff;
+	position: relative;
+	margin-top: 50px;
+	/* box-shadow: 18px 2px 31px 0px rgba(0,28,67, 0.31); */
+	display: flex;
+	width: 350px;
+	height: 610px;
+	border-radius: 0 10px 10px 0;
+	margin-left: 6rem;
+  }
+
+  .profile-card-4 {
+	max-width: 300px;
+	background-color: #e2efff;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	margin: 10px auto;
+	cursor: pointer;
+  }
+  
+  .profile-card-4 img {
+	transition: all 0.25s linear;
+	width:100%;
+	margin-top: 14px;
+	margin-left: 0px;
+  }
+  
+  .profile-card-4 .profile-content {
+	position: relative;
+	padding: 15px;
+	background-color: #e2efff;
+  }
+  
+  .profile-card-4 .profile-name {
+	font-weight: bold;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: -70px;
+	color: #e2efff;
+	font-size: 17px;
+  }
+  
+  .profile-card-4 .profile-name p {
+	font-weight: 600;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+  }
+  
+  .profile-card-4 .profile-description {
+	color: #777;
+	font-size: 12px;
+	padding: 10px;
+  }
+  
+  .profile-card-4 .profile-overview {
+	padding: 15px 0px;
+  }
+  
+  .profile-card-4 .profile-overview p {
+	font-size: 10px;
+	font-weight: 600;
+	color: #777;
+  }
+  
+  .profile-card-4 .profile-overview h4 {
+	color: #273751;
+	font-weight: bold;
+  }
+  
+  .profile-card-4 .profile-content::before {
+	content: "";
+	position: absolute;
+	height: 20px;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	background-color: #e2efff;
+	z-index: 0;
+	
+  }
+  
+  .profile-card-4:hover img {
+	transform: scale(1.1, 1.1);
+	filter: brightness(110%);
+  }
+
+  /* dropdown button */
+.dropdown {
+	display: inline-block;
+	position: relative;
+  }
+  
+  .dd-button {
+	background: #EAECF8;
+	border: 10px solid #FFFFFF;
+	box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25);
+	border-radius: 95px;
+	display: inline-block;
+	padding: 10px 30px 10px 20px;
+	cursor: pointer;
+	white-space: nowrap;
+	width:300px;
+  }
+  
+  .dd-button:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid black;
+  }
+  
+  .dd-button:hover {
+	background-color: #eeeeee;
+  }
+  
+  
+  .dd-input {
+	display: none;
+  }
+  
+  .dd-menu {
+	position: absolute;
+	top: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0;
+	margin: 2px 0 0 0;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+	background-color: #ffffff;
+	list-style-type: none;
+  }
+  
+  .dd-input + .dd-menu {
+	display: none;
+  } 
+  
+  .dd-input:checked + .dd-menu {
+	display: block;
+	z-index: 1;
+	width: 100%;
+  } 
+  
+  .dd-menu li {
+	padding: 10px 20px;
+	cursor: pointer;
+	white-space: nowrap;
+  }
+  
+  .dd-menu li:hover {
+	background-color: #f6f6f6;
+  }
+  
+  .dd-menu li a {
+	display: block;
+	margin: -10px -20px;
+	padding: 10px 20px;
+  }
+  
+  .dd-menu li.divider{
+	padding: 0;
+	border-bottom: 1px solid #cccccc;
+  }
+  
+  .dbutton button{
+	background: #0073ff;
+	margin-top:20px;
+	border-radius: 50px;
+  }
   
