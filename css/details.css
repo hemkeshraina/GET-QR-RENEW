@@ -472,7 +472,7 @@ header{
 }
 
 .igData10 {
-  background: linear-gradient(180deg, hhsla(213, 100%, 50%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+  background: linear-gradient(180deg, hsla(213, 100%, 50%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
   height: 0px;
   left: 443.6363636364px;
   -webkit-animation: showBar10 1.2s 1s forwards;
