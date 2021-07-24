@@ -253,7 +253,7 @@ button:hover {
     margin: 40px auto;
     background: rgba(209, 197, 255, 0.23);
     border-radius: 50px;
-    border: 20px solid rgba(133, 102, 255, 0.2);
+    border: 20px solid #E2EFFF;
 }
 
 .w3l-workinghny-form .login-form-content {
